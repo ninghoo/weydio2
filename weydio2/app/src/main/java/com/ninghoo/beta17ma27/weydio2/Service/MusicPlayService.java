@@ -14,12 +14,9 @@ import android.view.KeyEvent;
 import android.widget.Toast;
 
 import com.ninghoo.beta17ma27.weydio2.Application.WeydioApplication;
-import com.ninghoo.beta17ma27.weydio2.Interface.Constants;
-import com.ninghoo.beta17ma27.weydio2.LockScreenWeiboActivity;
+import com.ninghoo.beta17ma27.weydio2.Activity.LockScreenWeiboActivity;
 import com.ninghoo.beta17ma27.weydio2.Model.AppConstant;
 import com.ninghoo.beta17ma27.weydio2.Model.Audio;
-import com.sina.weibo.sdk.auth.AuthInfo;
-import com.sina.weibo.sdk.web.WeiboPageUtils;
 
 import java.util.ArrayList;
 import java.util.Random;

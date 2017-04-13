@@ -7,13 +7,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.ninghoo.beta17ma27.weydio2.MainActivity">
+    tools:context="com.ninghoo.beta17ma27.weydio2.Activity.MainActivity">
+
+    <!--这个是隐藏的布局，然后通过动态的设置高度达到效果-->
+    <LinearLayout
+        android:id="@+id/visable_bar"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:transitionName="shareNames"
+        android:background="#202020"
+        android:orientation="vertical" />
 
     <com.ninghoo.beta17ma27.weydio2.View.ViewPagerIndicator
         android:id="@+id/id_indicator"
         android:layout_width="match_parent"
-        android:layout_height="30dp"
-        android:background="@color/midnight_blue"
+        android:layout_height="45dp"
+        android:background="#202020"
         android:orientation="horizontal"
         wey:item_count="4" >
 
